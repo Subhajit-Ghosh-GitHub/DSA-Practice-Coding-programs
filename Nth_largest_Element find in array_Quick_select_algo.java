@@ -1,4 +1,4 @@
-package day2;
+
 import java.util.*;
 public class Nth_largest_Quick_select_algo {
 	public static void  swap(int arr[],int i,int j) {
@@ -8,7 +8,7 @@ public class Nth_largest_Quick_select_algo {
 		
 	}
 	public static int   partition (int arr[],int L,int R) {
-		int piv=arr[L];
+		int piv=arr[L]; // pivot select from left side. it pivot select as random then its better, time complecicity average case  O(n)
 		
 		int i=L;
 		int j=R;
@@ -64,3 +64,4 @@ public class Nth_largest_Quick_select_algo {
 		}
 	}
 }
+
